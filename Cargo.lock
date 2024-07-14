@@ -268,7 +268,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "simple_open-rs"
+name = "simple_open"
 version = "0.1.0"
 dependencies = [
  "cbindgen",
