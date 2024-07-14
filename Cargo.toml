@@ -1,0 +1,19 @@
+[package]
+name = "simple_open-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+open = "5.3.0"
+
+
+
+
+[lib]
+#crate-type = ["staticlib"]
+# use the simple_link-rs project to package multi crates into one static lib
+
+[build-dependencies]
+cbindgen = "0.26.0"
+
+
